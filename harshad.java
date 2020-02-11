@@ -9,7 +9,7 @@ class Solution2 {
 		  String y = Integer.toString(x);          	// int to String
 		  int [] num = new int[y.length()];			// 배열 생성 
 		  String[] str = new String[y.length()];	// 배열 생성
-		  str = y.split("");			// split() 함수는 스트링에 있는 글자 하나하나를 괄호 안에 있는 글자로 구분하여  하나씩 배열에 넣어줌
+		  str = y.split("");	// split() 함수는 스트링에 있는 글자 하나하나를 괄호 안에 있는 글자로 구분하여  하나씩 배열에 넣어줌
 		  int sum = 0;
 		  for(int i=0;i<y.length();i++) {
 			  num[i]=Integer.parseInt(str[i]);		// String[] to int[]
