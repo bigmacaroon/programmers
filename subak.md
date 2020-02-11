@@ -1,5 +1,3 @@
-package com.hk.exam;
-
 class Solution {
 	  public static String solution(int n) {
 	    
