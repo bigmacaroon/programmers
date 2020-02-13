@@ -1,4 +1,4 @@
-# programmers
+
 
 class Solution_1 {
 
