@@ -1,8 +1,6 @@
-
-
 class Solution_1 {
 
-	public static int[] solution(int n, int m) {
+	public static void solution(int n, int m) {
 		int[] answer = { n, m };
 		int big = 0;
 		if (m > n) { // 받은수중 더큰수를 big에 넣음
@@ -25,16 +23,15 @@ class Solution_1 {
 			}
 		}
 
-		return answer;
+		System.out.println(answer[0]);
+		System.out.println(answer[1]);
 	}
 
 	public static void main(String[] args) {
-		int a = 3;
-		int b = 13;
+		int a = 40;
+		int b = 22;
 
-		int arr[] = solution(a, b);
-		for (int i = 0; i < 2; i++) {
-			System.out.println(arr[i]);
-		}
+		solution(a, b);
+		
 	}
 }
